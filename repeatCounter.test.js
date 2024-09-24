@@ -8,7 +8,7 @@ describe('countCharacter', () => {
     expect(countCharacter('hello world', 'z')).toBe(0)
     expect(countCharacter('', 'a')).toBe(0)
     expect(countCharacter('aaaa', 'a')).toBe(4)
-    expect(countCharacter('Aaaa', 'a')).toBe(3) // Case sensitive
+    expect(countCharacter('Aaaa', 'a')).toBe(3)
     expect(countCharacter(null, '')).toBe(0)
   })
 })
